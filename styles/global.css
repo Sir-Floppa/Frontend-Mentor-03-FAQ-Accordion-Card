@@ -17,13 +17,14 @@ body {
 }
 
 main {
-  width: 70%;
-  height: 70%;
+  width: 80rem;
+  height: 40rem;
   background-color: white;
   padding: 6rem;
   border-radius: 2rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 button {
@@ -31,12 +32,21 @@ button {
   border: none;
   cursor: pointer;
   font-size: 1.125rem;
-  text-align: left;
-  color: hsl(237, 12%, 33%)
+  color: hsl(237, 12%, 33%);
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button img {
+  width: 1rem;
 }
 
 h1 {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 p {
@@ -45,11 +55,20 @@ p {
   display: none;
 }
 
+footer {
+  color: rgba(255, 255, 255, 0.747)
+}
+
 footer a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(177, 72%, 46%);
 }
 
 #faq {
   display: flex;
   flex-direction: column;
+  width: 45%;
+}
+
+.accordion {
+  border-bottom: 2px solid hsl(240, 5%, 91%);
 }
