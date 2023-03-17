@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 2rem;
+
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
