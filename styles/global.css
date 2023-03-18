@@ -18,7 +18,8 @@ body {
 
 main {
   width: 70%;
-  min-height: 80%;
+  height: 40rem;
+  min-height: 40rem;
   background-color: white;
   padding: 6rem;
   border-radius: 2rem;
