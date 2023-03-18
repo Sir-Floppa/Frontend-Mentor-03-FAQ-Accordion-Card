@@ -1,5 +1,7 @@
 const openAccord = (e) => {
-  e.target.parentNode.children[1].classList.toggle('hide');
+  e.target.parentNode.querySelector('p').classList.toggle('hide');
+  e.target.querySelector('img').classList.toggle('flip');
+  e.target.classList.toggle('btn-active');
 };
 
 document.querySelectorAll("button")

@@ -52,6 +52,7 @@ h1 {
 p {
   font-size: 0.938rem;
   color: hsl(240, 6%, 50%);
+  margin-bottom: 1.5rem;
 }
 
 footer {
@@ -74,4 +75,12 @@ footer a {
 
 .hide {
   display: none;
+}
+
+.flip {
+  transform: scaleY(-1)
+}
+
+.btn-active {
+  font-weight: 700;
 }
