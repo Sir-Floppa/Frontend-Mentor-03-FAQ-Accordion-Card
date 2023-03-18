@@ -78,7 +78,7 @@ footer a {
 }
 
 .flip {
-  transform: scaleY(-1)
+  transform: scaleY(-1);
 }
 
 .btn-active {
