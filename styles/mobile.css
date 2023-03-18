@@ -1,0 +1,48 @@
+
+@media (max-width: 890px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+  
+  main {
+    flex-direction: column;
+    background-image: url('../images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: center
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+
+  #left-section {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  #left-section img {
+    align-self: center;
+    max-width: 80%;
+    position: relative;
+    top: -66%
+  }
+
+  #faq {
+    min-width: 100%
+  }
+
+  footer{ 
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}

@@ -26,13 +26,21 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url("../images/illustration-woman-online-desktop.svg"),
-    url("../images/bg-pattern-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: 50%, 85%;
-  background-position-y: 50%;
-  background-position-x: -18%, -295%;
 }
+
+/* Background settings, only for desktop */
+@media (min-width: 890px) {
+  main {
+    background-image:
+      url("../images/illustration-woman-online-desktop.svg"),
+      url("../images/bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 50%, 85%;
+    background-position-y: 50%;
+    background-position-x: -18%, -295%;
+  }
+}
+
 
 button {
   background-color: transparent;
@@ -97,4 +105,8 @@ footer a {
   left: 9.5vw;
   top: 46.5vh;
   width: 11vw;
+}
+
+.mobile-only {
+  display: none;
 }
