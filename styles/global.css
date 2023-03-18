@@ -52,7 +52,6 @@ h1 {
 p {
   font-size: 0.938rem;
   color: hsl(240, 6%, 50%);
-  display: none;
 }
 
 footer {
@@ -71,4 +70,8 @@ footer a {
 
 .accordion {
   border-bottom: 2px solid hsl(240, 5%, 91%);
+}
+
+.hide {
+  display: none;
 }
