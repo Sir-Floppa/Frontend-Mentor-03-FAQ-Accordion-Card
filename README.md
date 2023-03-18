@@ -10,13 +10,9 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -30,11 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![App Screnshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/faq-accordion-card-GoBErB69I1)
 - Live Site URL: [Add live site URL here](https://sir-floppa.github.io/Frontend-Mentor-03-FAQ-Accordion-Card/)
 
 ## My process
