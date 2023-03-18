@@ -1,5 +1,5 @@
 
-@media (max-width: 890px) {
+@media (max-width: 896px) {
   .mobile-only {
     display: block;
   }
@@ -9,19 +9,25 @@
   }
   
   main {
+    padding: 1rem;
     flex-direction: column;
     background-image: url('../images/bg-pattern-mobile.svg');
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position-x: center
+    background-position-x: center;
+    justify-content: flex-start;
+  }
+
+  section {
+    margin-bottom: -18vw;
   }
 
   h1 {
     text-align: center;
   }
-  
-  main {
-    padding: 1rem;
+
+  p, h1{
+    margin-bottom: 1rem;
   }
 
   #left-section {
@@ -31,10 +37,9 @@
 
 
   #left-section img {
-    align-self: center;
-    max-width: 80%;
+    width: 80%;
     position: relative;
-    top: -66%
+    top: -67%;
   }
 
   #faq {
